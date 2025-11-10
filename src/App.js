@@ -5,7 +5,6 @@ import CuentaServices from "./services/CuentaServices";
 import TransaccionServices from "./services/TransaccionServices";
 
 function App() {
-  // --- Estados ---
   const [clientes, setClientes] = useState([]);
   const [cuentas, setCuentas] = useState([]);
   const [transacciones, setTransacciones] = useState([]);
